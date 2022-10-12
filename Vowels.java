@@ -53,8 +53,8 @@ final class Vowels {
     * @param args No args will be used
     */
     public static void main(String[] args) {
+        System.out.println("Enter a sentence :");
         try {
-            System.out.println("Enter a sentence :");
             final Scanner sc = new Scanner(System.in);
             final String sentence = sc.nextLine();
             final int numberVowels = vowelCount(sentence);
